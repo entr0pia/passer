@@ -9,7 +9,7 @@ import (
 
 func main() {
 	var encoding = flag.String("encode", "b", "encode type: a[scii85] or b[ase64]")
-	var length = flag.Int("len", 12, "")
+	var length = flag.Int("len", 12, "ength of password")
 	flag.Parse()
 
 	var buffer = make([]byte, *length)
