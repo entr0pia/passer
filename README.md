@@ -5,13 +5,14 @@ A simple random password generator.
 ## Usage
 
 ```
-$ passer [options]
+$ passer [-h|--help] [-e|--encode "<value>"] [-l|--length <integer>]
 
-  options
-    -encode string
-        encode type: a[scii85] or b[ase64] (default "b")
-    -len int
-        length of password (default 12)
+
+Arguments:
+
+  -h  --help    Print help information
+  -e  --encode  Encode type: a[scii85] or b[ase64]. Default: b
+  -l  --length  Length of password. Default: 12
 ```
 
 ## Install
