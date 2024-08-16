@@ -1,6 +1,7 @@
 # passer
 
 A simple random password generator
+> Character Set: `ABCDEFGHJKLMNPQRSTUVWXYZ0123456789abcdefghijkmnopqrstuvwxyz0123456789@#$%^&*,./_-+=0123456789`
 
 ## Usage
 
