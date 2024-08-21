@@ -1,7 +1,6 @@
 # passer
 
 A simple random password generator
-> Character Set: `ABCDEFGHJKLMNPQRSTUVWXYZ0123456789abcdefghijkmnopqrstuvwxyz0123456789@#$%^&*,./_-+=0123456789`
 
 ## Usage
 
@@ -13,3 +12,12 @@ passer [length=12]
 ```bash
 go install github.com/entr0pia/passer@latest
 ```
+
+## Character Set
+
+- `ABCDEFGHJKLMNPQRSTUVWXYZ` 
+    > Exclude `I` `O`
+- `abcdefghijkmnopqrstuvwxyz`
+    > Exclude `l`
+- `0123456789`
+- `@#$%^&*,./_-+=`

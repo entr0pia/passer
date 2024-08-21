@@ -7,7 +7,7 @@ import (
 )
 
 func main() {
-	const ALPHABET = `ABCDEFGHJKLMNPQRSTUVWXYZ0123456789abcdefghijkmnopqrstuvwxyz0123456789@#$%^&*,./_-+=0123456789`
+	const ALPHABET = `ABCDEFGHJKLMNPQRSTUVWXYZ0123456789abcdefghijkmnopqrstuvwxyz0123456789@#$%^&*,./_-+=`
 	const MOD = len(ALPHABET)
 	// set length
 	var length = 12
