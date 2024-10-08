@@ -10,7 +10,8 @@ passer [length=12]
 ## Install
 
 ```bash
-go install github.com/entr0pia/passer@latest
+go get github.com/entr0pia/passer@latest
+# go install github.com/entr0pia/passer@latest
 ```
 
 ## Character Set
